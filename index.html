@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+  <title>ALL TALENT</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/index.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="js/index.js"></script>
+  <!-- Start Responsive Carousel HEAD section -->
+  <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+  <script type="text/javascript" src="engine1/jquery.js"></script>
+  <!-- End Responsive Carousel HEAD section -->
+  <body>
+    <!-- Navbar (sit on top) -->
+  <div class="w3-top" style="background-color:red">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide"><img src="img/logo_w.png" style="height:40px"</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small" style="padding:10px">
+      <a href="#about" class="w3-bar-item w3-button">ABOUT</a>
+      <a href="#team" class="w3-bar-item w3-button">TALENT</a>
+      <a href="#work" class="w3-bar-item w3-button">JOBS</a>
+      <a href="#pricing" class="w3-bar-item w3-button">SUCCESS STORIES</a>
+      <a href="#contact" class="w3-bar-item w3-button">CONTACT</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+  </div>
+
+  <!-- Sidebar on small screens when clicking the menu icon -->
+  <nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+    <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close ×</a>
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+    <a href="#team" onclick="w3_close()" class="w3-bar-item w3-button">TEAM</a>
+    <a href="#work" onclick="w3_close()" class="w3-bar-item w3-button">WORK</a>
+    <a href="#pricing" onclick="w3_close()" class="w3-bar-item w3-button">PRICING</a>
+    <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+  </nav>
+
+  <!-- Header with full-height image -->
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <div class="slider-text">
+          <img src="img/slider-1.jpeg" alt="Slider-1" style="width:100%;">
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="slider-text">
+          <p>UNLIMITED OPPORTUNITES WAITING FOR YOU</p>
+          <img src="img/slider-2.jpeg" alt="Slider2" style="width:100%;">
+      </div>
+      </div>
+    
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right"></span>
+      <span class="sr-only">Next</span>
+    </a>
+    <div class="container">
+      <div class="baner_patch">
+      <h1>We Are One of the World’s Fastest-Growing Talent Network </h1>
+      </div>
+   
+    <img id="patch" src="img/red_patch.png">
+
+    </div>
+  </div>
+
+  <!-- About Section -->
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h2 class="w3-center">POPULAR PROFESSIONAL COURSES</h2>
+  <h2 class="w3-center"><b>WHY CHOOSE US?</b></h2>
+  <div class="w3-container w3-center" style="padding:128px 16px" id="pricing">
+    <div class="w3-row-padding" style="margin-top:64px">
+      <div class="w3-third w3-section">
+        <ul class="w3-ul w3-white w3-hover-shadow">
+          <li class="w3-black w3-xlarge w3-padding-32">Benefits for Talent</li>
+          <li class="w3-padding-16"><b>Audition from the safety and comfort of your home</b></li>
+          <li class="w3-padding-16"><b>Guaranteed Payments</b></li>
+          <li class="w3-padding-16"><b>Instantly notified of opportunities</b></li>
+        </ul>
+      </div>
+      <div class="w3-third">
+        <ul class="w3-ul w3-white w3-hover-shadow">
+          <li class="w3-red w3-xlarge w3-padding-48">Casting/Coordinator Benefits</li>
+          <li class="w3-padding-16"><b>Work from home</b></li>
+          <li class="w3-padding-16"><b>Exciting work</b></li>
+          <li class="w3-padding-16"><b>Best in-class casting/coordinator software</b></li>
+        </ul>
+      </div>
+      <div class="w3-third w3-section">
+        <ul class="w3-ul w3-white w3-hover-shadow">
+          <li class="w3-black w3-xlarge w3-padding-32">Events Benefits</li>
+          <li class="w3-padding-16"><b>Create events</b></li>
+          <li class="w3-padding-16"><b>Hire performing artists</b></li>
+          <li class="w3-padding-16"><b>Sell event tickets/tables</b></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="button2">
+<button class="button button3">TALENT</button>
+<button class="button button3">HIRE TALENT</button>
+</div>
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h2 class="w3-center" style="padding: 60px;">BENEFITS FOR ARTIST COMMUNITY</h2>
+
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="img/audition.png" style="height:60px">
+      <p>SHOWCASE TALENT</p>
+      <p>Some text</p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="img/profile.png" style="height:60px">
+      <p>GET NOTICED</p>
+      <p>Some text</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="img/verified.png" style="height:60px">
+      <p>INSTANT NOTIFICATIONS</p>
+      <p>Some text</p>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="img/verified.png" style="height:60px">
+      <p>PRIVACY</p>
+      <p>Some text</p>
+    </div>
+  </div>
+</div>
+</div>
+<div>
+  <div class="button2">
+    <button class="button button3">CREATE PROFILE</button>
+    </div>
+  <div class="w3-center" style="padding-top:100px">
+    <h2>LATEST REQUIREMENTS</h2>
+    <p>Searching for your next big role? Browse through our list of jobs below.</p>
+    <div>
+      <img src="img/4.png" style="width: 100%; height:auto">
+    </div>
+    
+  </div>
+  </div>
+<div class="w3-center" style="padding-top:100px">
+  <h2><b>OUR CLIENTS</b></h2>
+  <p> We've worked and continue to work with several happy clients like: </p>
+  <img src="img/Untitled design.png" style="width: 1000px; height:600px">
+  
+</div>
+</div>
+<div>
+<footer style="margin-top:50px">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6" data-scrollreveal="enter bottom over 1.5s" data-sr-init="true" data-sr-complete="true">
+				<h4>COMPANY LINKS</h4>
+				<ul>
+					<li> <a href="/">Home</a> </li>
+					<li> <a href="javascript:void(0)">About Us</a> </li>
+					
+					<li> <a href="https://www.alltalents.in/job-listing-all">Jobs</a> </li>
+					<li> <a href="https://www.alltalents.in/success-stories"> Success Stories  </a> </li>
+				</ul>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6" data-scrollreveal="enter bottom over 1.5s" data-sr-init="true" data-sr-complete="true">
+				<h4>TALENT</h4>
+				<ul>
+					<li> <a href="https://www.alltalents.in/talent-listing">Browse Talent</a> </li>
+					<li> <a href="https://www.alltalents.in/job-listing-all">Audition &amp; Jobs</a> </li>
+					
+					
+					<li> <a href="https://www.alltalents.in/talent-listing">Talent Directory </a> </li>
+				</ul>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6" data-scrollreveal="enter bottom over 1.5s" data-sr-init="true" data-sr-complete="true">
+				<h4> HELP LINKS </h4>
+				<ul>
+					<li> <a href="#">Contact Us</a> </li>
+					
+					
+					
+				</ul>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6 footer_social" data-scrollreveal="enter bottom over 1.5s" data-sr-init="true" data-sr-complete="true">
+				<h4>Social</h4>
+				<ul>
+					<li> <a href="https://www.facebook.com/alltalentagency"> <i class="fa fa-facebook" aria-hidden="true"></i> - Facebook </a> </li>
+					
+					<li> <a href="https://www.instagram.com/alltalentagency/"> <i class="fa fa-instagram" aria-hidden="true"></i> - Instagram </a> </li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div class="copyright">
+		<div class="container1">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<p> 2021 © All Talent | All rights reserved </p>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+</div>
+
+<script>
+  jQuery(document).ready(function ($) {
+
+$('#checkbox').change(function(){
+setInterval(function () {
+    moveRight();
+}, 3000);
+});
+
+var slideCount = $('#slider ul li').length;
+var slideWidth = $('#slider ul li').width();
+var slideHeight = $('#slider ul li').height();
+var sliderUlWidth = slideCount * slideWidth;
+
+$('#slider').css({ width: slideWidth, height: slideHeight });
+
+$('#slider ul').css({ width: sliderUlWidth, marginLeft: - slideWidth });
+
+$('#slider ul li:last-child').prependTo('#slider ul');
+
+function moveLeft() {
+    $('#slider ul').animate({
+        left: + slideWidth
+    }, 200, function () {
+        $('#slider ul li:last-child').prependTo('#slider ul');
+        $('#slider ul').css('left', '');
+    });
+};
+
+function moveRight() {
+    $('#slider ul').animate({
+        left: - slideWidth
+    }, 200, function () {
+        $('#slider ul li:first-child').appendTo('#slider ul');
+        $('#slider ul').css('left', '');
+    });
+};
+
+$('a.control_prev').click(function () {
+    moveLeft();
+});
+
+$('a.control_next').click(function () {
+    moveRight();
+});
+
+});    
+</script>
+
+
+</body>
+</html>
+
